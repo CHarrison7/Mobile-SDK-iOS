@@ -198,6 +198,7 @@
 				86985CC61E834EC200577EC7 /* Frameworks */,
 				86985CC71E834EC200577EC7 /* Resources */,
 				8A68B323F021A127CDC7173C /* [CP] Embed Pods Frameworks */,
+				2FB7D5EC2AA5A1F38B05B8C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +260,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2FB7D5EC2AA5A1F38B05B8C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo-resources.sh",
+				"${PODS_ROOT}/DJIFlySafeDatabaseResource/DJIFlySafeDatabaseResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DJIFlySafeDatabaseResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DJISDKSwiftDemo/Pods-DJISDKSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8A68B323F021A127CDC7173C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
